@@ -1,0 +1,11 @@
+import math
+n = int(input())
+for _ in range (n):
+    a= int (input())
+    if (a<5):
+        print(a*1)
+    else:
+         b= int (a/5)
+         c= a%5
+         d= b*4+c*1
+         print (d)
